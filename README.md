@@ -11,12 +11,18 @@ A simple Chrome extension that opens the native share sheet when you click the e
 
 ## Installation
 
+Github
 1. Download or clone all the extension files to a folder on your computer
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode" using the toggle in the top right
 4. Click "Load unpacked"
 5. Select the folder containing the extension files
-6. The extension icon should now appear in your toolbar
+6. Pin Extension in extensions menu
+7. The extension icon should now appear in your toolbar
+
+Chrome Web Store
+1. WIP
+   
 
 ## Usage
 
@@ -25,18 +31,10 @@ A simple Chrome extension that opens the native share sheet when you click the e
 3. The native share sheet will open
 4. Choose your preferred sharing method (email, messaging apps, etc.)
 
-## Files Included
-
-- `manifest.json` - Extension configuration
-- `background.js` - Service worker that handles the sharing logic
-- `icon16.png`, `icon48.png`, `icon128.png` - Extension icons
-- `README.md` - This file
-
 ## Browser Compatibility
 
 This extension requires a browser that supports the Web Share API. The native share sheet works best on:
 - Chrome/Edge on Windows 10+ and macOS
-- Chrome on Android
 
 If the Web Share API is not supported, you'll see an alert message.
 
